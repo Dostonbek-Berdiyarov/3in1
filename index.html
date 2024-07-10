@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body class="mt-[50px]">
+    <h1 class="sr-only">Uy ishi</h1>
+    <h2 class="mb-[50px] text-yellow-500 text-[50px] text-center">
+      Fizz<span class="text-purple-500">Buzz</span>
+    </h2>
+    <form class="mt-[20px]" id="js-fizzbuzz-form">
+      <div class="flex justify-center gap-x-[50px]">
+        <input
+          id="js-fizzbuzz-input"
+          class="py-[5px] px-[15px] border border-yellow-500 rounded-[20px] placeholder:text-purple-500 text-purple-500 outline-none"
+          type="number"
+          placeholder="Son kiriting"
+        />
+        <button
+          class="py-[5px] px-[15px] border border-purple-500 rounded-[20px] text-yellow-500 outline-none"
+          type="submit"
+        >
+          Tekshirish
+        </button>
+      </div>
+      <div class="h-[50px]">
+        <output
+          id="js-fizzbuzz-output"
+          class="block mt-[20px] text-center text-[30px] text-purple-500"
+          >FizzBuzz</output
+        >
+      </div>
+    </form>
+    <h2 class="mb-[50px] text-yellow-500 text-[50px] text-center">
+      Juft v<span class="text-purple-500">a Toq</span>
+    </h2>
+    <form class="mt-[20px]" id="js-evenodd-form">
+      <div class="flex justify-center gap-x-[50px]">
+        <input
+          id="js-evenodd-input"
+          class="py-[5px] px-[15px] border border-yellow-500 rounded-[20px] placeholder:text-purple-500 text-purple-500 outline-none"
+          type="number"
+          placeholder="Son kiriting"
+        />
+        <button
+          class="py-[5px] px-[15px] border border-purple-500 rounded-[20px] text-yellow-500 outline-none"
+          type="submit"
+        >
+          Tekshirish
+        </button>
+      </div>
+      <div class="h-[50px]">
+        <output
+          id="js-evenodd-output"
+          class="block mt-[20px] text-yellow-500 text-center text-[30px]"
+          >Juft va toq</output
+        >
+      </div>
+    </form>
+    <h2 class="mb-[50px] text-yellow-500 text-[50px] text-center">
+      Ran<span class="text-purple-500">dom</span>
+    </h2>
+    <form class="mt-[20px]" id="js-random-form">
+      <div class="flex justify-center gap-x-[50px]">
+        <input
+          id="js-random-input"
+          class="py-[5px] px-[15px] border border-yellow-500 rounded-[20px] placeholder:text-purple-500 text-purple-500 outline-none"
+          type="number"
+          placeholder="Son kiriting"
+        />
+        <button
+          class="py-[5px] px-[15px] border border-purple-500 rounded-[20px] text-yellow-500 outline-none"
+          id="js-random-btn"
+          type="submit"
+        >
+          Tekshirish
+        </button>
+      </div>
+      <div class="h-[50px]">
+        <output
+          id="js-random-output"
+          class="block mt-[20px] text-center text-purple-500 text-[30px]"
+          >Random son</output
+        >
+        <p
+          id="js-random-attepts"
+          class="my-[20px] text-purple-500 text-[20px] text-center"
+        >
+          Sizda 10 ta urunish bor
+        </p>
+        <button
+          id="js-reload"
+          class="hidden mx-auto py-[5px] px-[15px] border border-yellow-500 rounded-[20px] text-purple-500 outline-none"
+        >
+          O'yindi qayta boshlash
+        </button>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
