@@ -9,7 +9,7 @@ var elRandomForm = document.querySelector("#js-random-form"),
   elRandomBtn = elRandomForm.querySelector("#js-random-btn"),
   elRandomOutput = elRandomForm.querySelector("#js-random-output"),
   elRandomAttepts = elRandomForm.querySelector("#js-random-attepts"),
-  elReload = elRandomForm.querySelector("#js-reload"),
+  elReload = document.querySelector("#js-reload"),
   randomNumber = Math.round(Math.random() * 100),
   userAttempt = 10;
 console.log(randomNumber);
